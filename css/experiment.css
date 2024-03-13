@@ -1,20 +1,16 @@
 body{
-    background-color: #DAC1AB;
+    background-color: #7a26d3;
 }
 
 header{
-    background-color: #E7DDD4;
+    background-color: #ccde2c;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 10px;
+    padding: 30px;
+    border: 3px;
+    margin: 6px;
 }
 
-#logo{
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-right: 10px;
-}
 
 h1,h2,h3,h4,h5,h6,p{
     font-family: "Garamond";
@@ -23,7 +19,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 h1{
     font-size: 36pt;
-    display: inline;
 }
 
 h3{
@@ -35,45 +30,36 @@ p{
 }
 
 main{
-    background-color: #E7DDD4;
+    background-color: #c21d1d;
     border-radius: 10px;
-    padding: 10px;
 }
 
 aside{
-    background-color: #E7DDD4;
+    background-color: #2bb5c4;
     border-radius: 10px;
-    padding: 10px;
 }
 
 footer{
-    background-color: #9E816F;
+    background-color: #33d50f;
     border-radius: 10px;
-    padding: 10px;
 }
 
 nav li{
-    border: 2px solid white;
+    border-width: 2px;
+    border: solid;
+    border-color: #FFFFFF;
     background-color: #9E816F;
-    list-style-type: none;
-    padding: 16px;
-    float: left;
-    width: 15%;
+    
 }
 
 nav li a{
     color: #E7DDD4;
+    text-align: center;
     text-decoration: nones;
 }
 
 nav li:hover{
     background-color: #633100;
-}
-
-nav ul{
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
 }
 
 .active{
@@ -82,12 +68,13 @@ nav ul{
 
 table{
     font-family: "Garamond";
-    border-collapse: collapse;
+    border: 5px;
+
 }
 
 table td, table th{
     border-width: 2px;
-    border: solid;
+    border: 10px;
     border-color: #F0F0F0;
 }
 
@@ -102,27 +89,4 @@ table tr:hover{
 table th{
     background-color: #9E816F;
     color: #FFFFFF;
-}
-
-#left-col{
-    float: left;
-    width: 60%;
-    
-}
-
-#right-col{
-   
-
-}
-    
-fieldset{
-    font-family: "Garamond";
-    color: #633100;
-    
-}
-
-input{
-    background-color:  #E7DDD4;
-    margin: 5px;
-    height:22px;
 }

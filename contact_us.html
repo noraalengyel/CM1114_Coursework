@@ -6,6 +6,7 @@
 
     <body>
         <header>
+            <img src="images/logoo.png" id="logo">
             <h1>Puppy Yoga Society</h1>
         </header>
 
@@ -20,11 +21,11 @@
         </nav>
 
         <main>
-            <div>
+            <div id="left-col">                
+                <h3>Contact Us</h3>
+                <p>Use the form below, or follow us on social media.</p>
                 <form>
                     <fieldset>
-                        <legend>Contuct Us using the below form:</legend>
-
                         <label for="name">Name:</label>
                         <input type="text" name="name" value=""> <br/>
 
@@ -37,7 +38,7 @@
                         <label for="status">Non-Member</label>
                         <input type="radio" name="status" value="non-member">
                         <br/>   
-                        
+                            
                         <label for="comments">Comments:</label>
                         <input type="text" name="comments" value=""> <br/>
 
@@ -45,6 +46,9 @@
                         <input type="file" name="files">
                     </fieldset>
                 </form>
+            </div>
+            <div id="right-col">
+                <a class="twitter-timeline" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/PuppyYogaUK">Tweets by PuppyYogaUK</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </main>
         
