@@ -10,6 +10,7 @@ header{
     margin: 10px;
 }
 
+/* Logo image */
 #logo{
     width: 50px;
     height: 50px;
@@ -56,22 +57,25 @@ footer{
     margin: 10px;
 }
 
+/* Navigation bar */
 nav li{
     border: 2px solid white;
     background-color: #9E816F;
+    text-transform:uppercase;
     list-style-type: none;
     padding: 16px;
     float: left;
     width: 15%;
+    font-family: "Garamond";
 }
 
 nav li a{
-    color: #E7DDD4;
+    color: white;
     text-decoration: nones;
 }
 
 nav li:hover{
-    background-color: #633100;
+    background-color: #DAC1AB ;
 }
 
 nav ul{
@@ -81,9 +85,10 @@ nav ul{
 }
 
 .active{
-    background-color: #FFFFFF;
+    background-color: #633100;
 }
 
+/* Event Calendar*/
 table{
     font-family: "Garamond";
     border-collapse: collapse;
@@ -108,33 +113,38 @@ table th{
     color: #FFFFFF;
 }
 
+/* Contact us form and Twitter content */
 #left-col{
     float: left;
     width: 70%;
     
+    
 }
 
 #right-col{
-    align-items: right;
+    float: right;
+
 }
     
 fieldset{
     font-family: "Garamond";
-    color: #633100;
-    
+    color: #633100; 
 }
 
 input{
     background-color:  #E7DDD4;
+    border-color: black;
     margin: 5px;
     height:22px;
 }
 
+/* Photo slide show */
 div.carousel-item{
     width: 100%;
     height: 700px
 }
 
+/* Image gallery */
 .gallery-img{
     width: 100%;
     height: 250px;
@@ -147,4 +157,10 @@ div.carousel-item{
 
 #img-gallery .row{
     margin-bottom: 10px;
+}
+
+/* Login */
+#login{
+    float: right;
+    margin-top: 10px;
 }

@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <!-- Title -->
         <title>Puppy Yoga Society</title>
+        <!-- CSS links-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/main.css">
@@ -8,10 +12,12 @@
 
     <body>
         <header>
-            <img src="images/logoo.png" id="logo">
+            <!-- Logo image and webpage title -->
+            <img src="images/logoo.png" id="logo" alt="Logo">
             <h1>Puppy Yoga Society</h1>
         </header>
 
+        <!-- Navigation bar -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,49 +29,50 @@
         </nav>
 
         <main>
+            <!-- Images -->
             <div id="img-gallery" class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/before session.jpg" class="gallery-img"  alt="Before Session"/>
+                        <img src="images/before_session.jpg" class="gallery-img"  alt="Before Session"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/yoga session.jpg" class="gallery-img" alt="During Session"/>                        
+                        <img src="images/yoga_session.jpg" class="gallery-img" alt="During Session"/>                        
                     </div>
                     <div class="col-sm">
-                        <img src="images/curious puppy.jpg" class="gallery-img" alt="Curious Puppy During Session"/>
+                        <img src="images/curious_puppy.jpg" class="gallery-img" alt="Curious Puppy During Session"/>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/cool down.jpg" class="gallery-img" alt="Cool Down"/>
+                        <img src="images/cool_down.jpg" class="gallery-img" alt="Cool Down"/>
                     </div>
                     <div class="col-sm">
                         <img src="images/cuddle.jpg" class="gallery-img" alt="Cuddling"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/two puppies.jpg" class="gallery-img" alt="Making Friends"/>
+                        <img src="images/two_puppies.jpg" class="gallery-img" alt="Making Friends"/>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/cool down 2.jpg" class="gallery-img" alt="Cool Down"/>
+                        <img src="images/cool_down2.jpg" class="gallery-img" alt="Cool Down"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/puppy tounge.jpg" class="gallery-img" alt="Little Tounge"/>
+                        <img src="images/puppy_tounge.jpg" class="gallery-img" alt="Little Tounge"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/puppy licking the mirror.jpg" class="gallery-img" alt="Puppy Licking the Mirror"/>
+                        <img src="images/puppylickingthemirror.jpg" class="gallery-img" alt="Puppy Licking the Mirror"/>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/after session.jpg" class="gallery-img" alt="After Session"/>
+                        <img src="images/after_session.jpg" class="gallery-img" alt="After Session"/>
                     </div>
                     <div class="col-sm">
-                         <img src="images/puppy belly.jpg" class="gallery-img" alt="Paws and Belly"/>
+                         <img src="images/puppy_belly.jpg" class="gallery-img" alt="Paws and Belly"/>
                     </div>
                     <div class="col-sm"></div>
 
@@ -73,16 +80,20 @@
             </div>
         </main>
 
+        <!-- Script to make image gallery less boring -->
         <script>
+            //Select all the images with the class 'gallery-img'
             var images = document.querySelectorAll('.gallery-img');
+            //add event listeners for mouseover and mouseout events
             images.forEach(function(image){
                 image.addEventListener('mouseover', highlight);
                 image.addEventListener('mouseout', delight)
             });
+            //Highliht function to make image stand out
             function highlight(){
                 this.style="border: solid #633100 5px; filter: none;"
             }
-
+            //Delight function to make image back to normal
             function delight(){
                 this.style="border: none; "
             }
