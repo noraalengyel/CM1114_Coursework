@@ -110,12 +110,12 @@ table th{
 
 #left-col{
     float: left;
-    width: 60%;
+    width: 70%;
     
 }
 
 #right-col{
-
+    align-items: right;
 }
     
 fieldset{
@@ -138,6 +138,7 @@ div.carousel-item{
 .gallery-img{
     width: 100%;
     height: 250px;
+    filter: blur(3px);
 }
 
 #img-gallery{

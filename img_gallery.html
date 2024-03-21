@@ -26,7 +26,7 @@
             <div id="img-gallery" class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/before session.jpg" class="gallery-img" alt="Before Session"/>
+                        <img src="images/before session.jpg" class="gallery-img"  alt="Before Session"/>
                     </div>
                     <div class="col-sm">
                         <img src="images/yoga session.jpg" class="gallery-img" alt="During Session"/>                        
@@ -72,6 +72,21 @@
                 </div>
             </div>
         </main>
+
+        <script>
+            var images = document.querySelectorAll('.gallery-img');
+            images.forEach(function(image){
+                image.addEventListener('mouseover', highlight);
+                image.addEventListener('mouseout', delight)
+            });
+            function highlight(){
+                this.style="border: solid #633100 5px; filter: none;"
+            }
+
+            function delight(){
+                this.style="border: none; "
+            }
+        </script>
         
         <aside></aside>
 
