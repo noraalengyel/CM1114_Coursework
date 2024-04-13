@@ -18,7 +18,7 @@ header{
     margin-right: 10px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,li{
     font-family: "Garamond";
     color: #633100;
 }
@@ -32,7 +32,7 @@ h3{
     font-size: 22pt;
 }
 
-p{
+p,li{
     font-size: 13pt;
 }
 
@@ -41,6 +41,7 @@ main{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    overflow: hidden;
 }
 
 aside{
@@ -49,6 +50,15 @@ aside{
     padding: 10px;
     margin: 10px;
 }
+
+.news{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
 
 footer{
     background-color: #9E816F;
@@ -61,11 +71,11 @@ footer{
 nav li{
     border: 2px solid white;
     background-color: #9E816F;
-    text-transform:uppercase;
+    text-transform: uppercase;
     list-style-type: none;
     padding: 16px;
     float: left;
-    width: 15%;
+    width: 14.2%;
     font-family: "Garamond";
 }
 
@@ -98,6 +108,9 @@ table td, table th{
     border-width: 2px;
     border: solid;
     border-color: #F0F0F0;
+    width: 200px;
+    font-size: 10pt;
+    padding: 3px;
 }
 
 table tr:nth-child(even){
@@ -111,22 +124,23 @@ table tr:hover{
 table th{
     background-color: #9E816F;
     color: #FFFFFF;
+    /*Horizontally and vertically centred*/
+    text-align: center;
+    padding: 5px;
 }
 
 /* Contact us form and Twitter content */
 #left-col{
     float: left;
     width: 70%;
-    
-    
 }
 
 #right-col{
-    float: right;
-
+   float: right;
+   width: 30%;
 }
     
-fieldset{
+fieldset,form{
     font-family: "Garamond";
     color: #633100; 
 }
@@ -164,3 +178,58 @@ div.carousel-item{
     float: right;
     margin-top: 10px;
 }
+
+/* yoga_resources page blog layout */
+/*Left column*/
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+
+/*Right column*/
+.rightcolumn{
+    float: left;
+    width:25%;
+    padding-left: 20px;;
+}
+
+/* Images*/
+.img{
+    width: 100%;
+    padding: 20px;
+}
+
+/*Adding  card effect*/
+.card{
+    background-color: #DAC1AB;
+    padding: 20px;
+    margin-top:  20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Adaption page, adopt button*/
+#adopt_button{
+    background-color: #633100;
+    border-color: #633100;
+    color: #FFFFFF;
+    font-family: "Garamond";
+}
+
+/* Adoptation cards */
+#adopt-card{
+    width: 18rem; 
+    margin-left: 30px;
+}
+
+#adopt-card:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
