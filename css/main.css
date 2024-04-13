@@ -152,7 +152,7 @@ input{
     height:22px;
 }
 
-/* Photo slide show */
+/* Photo slide show on index.html */
 div.carousel-item{
     width: 100%;
     height: 700px
@@ -173,7 +173,7 @@ div.carousel-item{
     margin-bottom: 10px;
 }
 
-/* Login */
+/* Login on index.html */
 #login{
     float: right;
     margin-top: 10px;
@@ -199,7 +199,7 @@ div.carousel-item{
     padding: 20px;
 }
 
-/*Adding  card effect*/
+/*Adding card effect*/
 .card{
     background-color: #DAC1AB;
     padding: 20px;
@@ -213,8 +213,8 @@ div.carousel-item{
     clear: both;
 }
 
-
-/* Adaption page, adopt button*/
+/* Adoption page */
+/* Adopt button*/
 #adopt_button{
     background-color: #633100;
     border-color: #633100;
@@ -228,6 +228,7 @@ div.carousel-item{
     margin-left: 30px;
 }
 
+/* If mouse is hovered over a card, a shadow appears behind it*/
 #adopt-card:hover{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
