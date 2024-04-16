@@ -215,7 +215,7 @@ div.carousel-item{
 
 /* Adoption page */
 /* Adopt button*/
-#adopt_button{
+#adopt-but{
     background-color: #633100;
     border-color: #633100;
     color: #FFFFFF;
@@ -223,14 +223,18 @@ div.carousel-item{
 }
 
 /* Adoptation cards */
-#adopt-card{
+#adopt-c{
     width: 18rem; 
     margin-left: 30px;
 }
 
 /* If mouse is hovered over a card, a shadow appears behind it*/
-#adopt-card:hover{
+#adopt-c:hover{
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+/* Changing the links colour to black */
+.links{
+    color: black;
+}
 
